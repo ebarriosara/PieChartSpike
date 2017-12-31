@@ -1,0 +1,1 @@
+export { colorFunctions } from './colorFunctions';

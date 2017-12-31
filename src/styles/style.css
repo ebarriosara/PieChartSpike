@@ -1,0 +1,20 @@
+body {
+  background-color: lightgray;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+text {
+  font-family: 'verdana';
+}
+
+label {
+  font-family: 'verdana';
+  font-weight: normal;
+}
