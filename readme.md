@@ -1,6 +1,6 @@
 # PieChartSpike
 
-In this project, D3.js v4 is used to display a pie chart using hardcoded data. The goal is to explore how D3.js works and conclude which parameters are necessary as well as their characteristics. 
+In this project, D3.js v4 and React are used to display a pie chart with hardcoded data. The goal is to explore how D3.js works and conclude which parameters are necessary as well as their characteristics. 
 
 ## Instructions to run the project
 
@@ -9,7 +9,7 @@ To run this project, firstly, it is necessary to install dependencies:
 npm install
 ```
 
-Secondly, next command will run the app.
+Secondly, next command will run the app:
 ```
 npm start
 ```
@@ -28,7 +28,7 @@ This example shows four ways of interacting with a pie chart:
 
 The following inputs are necessary when building a pie chart using D3.js:
 
-- Data: A data element could have one or several fields. The only requirement is to have at least one numeric field. If the data element contains more than one field, when creating the pie, it is necessary to provide an accessor that returns the corresponding numeric value for a given datum.
+- Data: an element could have one or several fields. The only requirement is to have at least one numeric field. If the data element contains more than one field, when creating the pie, it is necessary to provide an accessor that returns the corresponding numeric value for a given datum.
 - Position: dimension and margins to display the chart at a specific position.
   - Dimension: size in pixels of the chart view. If the chart is larger than the view, it will be cut.
   - Margins: number of pixels that will be left empty around the chart.
